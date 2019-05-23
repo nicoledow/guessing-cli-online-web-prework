@@ -35,7 +35,10 @@ while user_input != "exit" do
   else
     puts "The computer guessed #{computer_guess}."
   end
+end
 
+if user_input == "exit"
+  puts "Goodbye!"
 end
 
 end
