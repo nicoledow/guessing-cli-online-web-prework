@@ -6,7 +6,7 @@ computer_guess = rand(1..6)
 
 while user_input != "exit" do
   if user_input.to_i == computer_guess
-    puts "You guessed correctly!"
+    puts "You guessed the correct number!"
     break
   else
     puts "The computer guessed #{computer_guess}."
