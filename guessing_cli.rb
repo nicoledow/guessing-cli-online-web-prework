@@ -9,8 +9,10 @@ def run_guessing_game
   while user_input != "exit"
     if user_input == computer_guess
       puts "You guessed the correct number!"
+      break
     else
       puts "The computer guessed #{computer_guess}."
+      break
     end
   end
   
